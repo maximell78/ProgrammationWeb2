@@ -1,5 +1,6 @@
 function Description(){
-    return <div>Description de mon site</div>
+    const TEXT = "Description du site";
+    return <p>{TEXT}</p>
 }
 
 export default Description;
